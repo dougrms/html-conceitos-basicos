@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <br>
+            <ul>
+                <li><a href="homepage.html">Página Principal</a></li>
+                <li><a href="aboutclinic.html">Sobre a clínica</a></li>
+                <li><a href="openinghours.html">Horário de Atendimento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://blog.faculdadedemacapa.com.br/wp-content/uploads/2020/08/post_thumbnail-b6c2091e5ac8fdc45a7ba2ff1c8b7596.jpg"
+                    alt="imagem odonto" class="headerHomePage" height="150px" width="100%">
+            </div>
+
+            <div class="content">
+                <div class="formulario-">
+                    <form name="form.content" onsubmit="alert('Enviado!')" autocomplete="off" method="post" action="#">
+                        <br>
+                        <label for="nome">Nome: </label><input type="text" name="name">
+                        <label for="email">E-mail: </label><input type="email" name="email">
+                        <label for="assunto">Assunto: </label><input type="text" name="subject">
+                        <div><br><label for="mensagem">Mensagem: </label><textarea name="message" rows="10"
+                                cols="50"></textarea></div><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer">
+                <ul class="informaçoesContato">
+                    <strong>Informações de contato:</strong>
+                    <li>Telefone: (21) 12345-6789</li>
+                    <li>E-mail: contato@sorrisorriso.com</li>
+                </ul>
+
+                <ul class="horafuncionamento">
+                    <strong>Horário de funcionamento:</strong>
+                    <li> Segunda a sexta: 08h - 17h</li>
+                    <li>Sábado: 08h - 12h</li>
+                    <li>Domingo: fechado.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
